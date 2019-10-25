@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Backbone.js Simple Todo App</title>
+    <style>
+        body{
+            background-color: #AFCFDC;
+            color: #AFCFDC;
+        }
+        a {
+            text-decoration: none;
+            color:inherit;
+        }
+        input {
+            padding:2px;
+            font-size: 16px;;
+        }
+        .todoList button {
+            margin-left: 5px;
+        }
+        button {
+            font-size: 14px;;
+            padding: 4px;
+            margin-left: 15px;
+            color: white;
+            border:none;
+            background: black;
+        }
+
+        li button {
+            background-color: red;
+        }
+        .container {
+            width: 80%;
+            margin: 3em auto;
+        }
+        .container .header {
+            background-color: #217092;
+            padding: 0.6em;
+            text-align: center;
+            font-size: 38px;
+        }
+        .container .footer {
+            background-color: #217092;
+            padding: 0.6em;
+            text-align: center;
+            font-size: 18px; 
+        }
+        .container .todoList {
+            background-color: #247BA0;
+            padding:1em;
+        }
+        .container .todoList li {
+            padding: 0.4em;
+            font-size: 22px;
+            list-style: none;
+        }
+
+        .container .todoList .checked {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Todo App</h2>
+        </div>
+
+        <div class="todoList">
+        </div>
+        <div class="footer">
+            <h4>This is a Sample App for Backbone.js. By: <a href="http://github.com/uyghurbeg">Uyghurbeg</a></h4>
+        </div>
+    </div>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/underscore.js"></script>
+<script src="/lib/backbone.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
